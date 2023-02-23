@@ -1,12 +1,14 @@
 import React from 'react'
 
 import { CircularProgressbar, buildStyles, CircularProgressbarWithChildren } from 'react-circular-progressbar';
+import { CodeBracketSquareIcon } from '@heroicons/react/24/solid'
 import 'react-circular-progressbar/dist/styles.css';
 
 function Middle() {
   return (
     <div>
 
+      <div className='lg:ml-auto lg:mr-auto lg:w-[600px] mt-5 lg:hidden'><img src='./Project1.png'></img></div>
 
       <div className='mt-[26px] lg:grid  lg:grid-cols-2 font-serif'>
 
@@ -29,7 +31,7 @@ function Middle() {
           <a href='https://next-js-food-web.vercel.app/' target='blank'><div className='mt-10 bg-[#d4d4d4] w-[180px] text-center rounded-[8px] text-[20px]'>View Deployment</div></a>
         </div>
 
-        <div className='lg:ml-auto lg:mr-auto lg:w-[600px] mt-5'><img src='./Project1.png'></img></div>
+        <div className='lg:ml-auto lg:mr-auto lg:w-[600px] mt-5 hidden lg:block'><img src='./Project1.png'></img></div>
 
 
         <div className='lg:ml-auto lg:mr-auto lg:w-[600px] lg:mt-[70px] mt-10' ><img src='./Project2.png'></img></div>
@@ -51,7 +53,7 @@ function Middle() {
           <a href='https://github.com/Aniket-Suvarna/Flutter_WallpaperApp' target='blank'><div className='mt-10 bg-[#d4d4d4] w-[130px] text-center rounded-[8px] text-[20px]'>View Project</div></a>
         </div>
 
-
+        <div className='lg:ml-auto lg:mr-auto lg:w-[600px] lg:mt-[70px] mt-5 lg:hidden'><img src='./Project3.png'></img></div>
 
         <div className='text-justify lg:ml-auto lg:mr-auto lg:w-[600px] ml-2 mr-2 md:ml-5 md:mr-5 mt-[30px] lg:mt-[60px]'>
           <div className=' font-bold text-[34px] lg:text-[40px] md:text-[40px]'>TogetherWeCreate-<br></br>TWC</div>
@@ -71,14 +73,18 @@ function Middle() {
           <a href='https://github.com/Aniket-Suvarna/TogetherWeCreate-TWC' target='blank'><div className='mt-10 bg-[#d4d4d4] w-[130px] text-center rounded-[8px] text-[20px]'>View Project</div></a>
         </div>
 
-        <div className='lg:ml-auto lg:mr-auto lg:w-[600px] lg:mt-[70px] mt-5'><img src='./Project3.png'></img></div>
+        <div className='lg:ml-auto lg:mr-auto lg:w-[600px] lg:mt-[70px] mt-5 hidden lg:block'><img src='./Project3.png'></img></div>
 
 
 
 
       </div>
-
-
+     
+     
+      <div className='flex justify-center mt-5'>
+        <CodeBracketSquareIcon width={60} className='lg:mr-4 mr-2'/>
+        <div className='lg:text-[50px] text-[28px] mt-6 mb-6 font-serif font-bold'>Most Languages Used</div>
+      </div>
 
       <div className='lg:mt-10 flex justify-evenly mt-[50px]'>
 
