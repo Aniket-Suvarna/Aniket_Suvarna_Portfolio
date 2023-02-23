@@ -26,6 +26,7 @@ function Middle() {
             <div>JavaScript</div><div>CSS</div><div>HTML</div>
           </div>
           <a href='https://github.com/Aniket-Suvarna/NextJS_FoodWeb' target='blank'><div className='mt-10 bg-[#d4d4d4] w-[130px] text-center rounded-[8px] text-[20px]'>View Project</div></a>
+          <a href='https://next-js-food-web.vercel.app/' target='blank'><div className='mt-10 bg-[#d4d4d4] w-[180px] text-center rounded-[8px] text-[20px]'>View Deployment</div></a>
         </div>
 
         <div className='lg:ml-auto lg:mr-auto lg:w-[600px] mt-5'><img src='./Project1.png'></img></div>
